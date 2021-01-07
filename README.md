@@ -54,6 +54,7 @@ Connection:keep-alive
 ### 第三步 解析CSS文件，构建CSSOM
 #### 1. CSSOM是一个带样式的DOM树
 #### 2. 选择器的优先级
+行内样式>id选择器>类选择器>tag选择器
 
 ### 第四步 计算每个DOM元素产生盒的位置
 
